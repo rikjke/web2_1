@@ -30,6 +30,26 @@
     <section>
         <h2>Justify-content</h2>
         <div class="container-wrapper">
+            <h3>flex-start (default)</h3>
+            <div class="container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>flex-end</h3>
+            <div class="container justify-flex-end">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
             <h3>Center</h3>
             <div class="justify-center container">
                 <div class="box"></div>
@@ -59,8 +79,65 @@
     
         </div>
 
+        <div class="container-wrapper">
+            <h3>Space-Evenly</h3>
+            <div class="justify-space-evenly container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
     </section>
 
+    <section>
+        <h2>Align-items</h2>
+
+        <div class="container-wrapper">
+            <h3>Flex-start (default)</h3>
+            <div class="container align-items">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Flex-end</h3>
+            <div class="container align-items align-items-flex-end">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Center</h3>
+            <div class="container align-items align-items-center">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Stretch</h3>
+            <div class="container align-items align-items-stretch">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+
+
+
+    </section>
 
     <section>
         <h2>Flex-direction</h2>
@@ -137,6 +214,86 @@
     </section>
 
     <section>
+        <h2>Align-content</h2>
+
+        <div class="container-wrapper">
+            <h3>Flex-start</h3>
+            <div class="container wrap align-content-fs">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Flex-end</h3>
+            <div class="container wrap align-content-fe">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Center</h3>
+            <div class="container wrap align-content-c">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Stretch</h3>
+            <div class="container wrap align-content-s">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Space between</h3>
+            <div class="container wrap align-content-sb">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Space around</h3>
+            <div class="container wrap align-content-sa">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <section>
         <h2>Flex</h2>
 
         <div class="container-wrapper">
@@ -162,6 +319,36 @@
                 <div class="box box-green">flex: 3</div>
                 <div class="box box-red">flex: 2</div>
                 <div class="box box-yellow flex-width">flex: 1 100px</div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Flex-grow</h3>
+            <div class="container">
+                <div class="box">flex-grow: 0 (default)</div>
+                <div class="box grow-1">flex-grow: 1</div>
+                <div class="box grow-2">flex-grow: 2</div>
+                <div class="box">flex-grow: 0 (default)</div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Flex-shrink</h3>
+            <div class="container container-s">
+                <div class="box">flex-shrink: 1 (default)</div>
+                <div class="box fs-0">flex-shrink: 0 (Остается 100px, остальные сжимаются в равных пропорциях)</div>
+                <div class="box">flex-shrink: 1 (default)</div>
+                <div class="box">flex-shrink: 1 (default)</div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Flex-shrink</h3>
+            <div class="container container-s">
+                <div class="box">flex-shrink: 1 (default)</div>
+                <div class="box fs-2">flex-shrink: 2</div>
+                <div class="box">flex-shrink: 1 (default)</div>
+                <div class="box">flex-shrink: 1 (default)</div>
             </div>
         </div>
 
@@ -195,6 +382,32 @@
 
 
 
+    </section>
+
+    <section>
+        <h1>Вложенность</h1>
+        <div class="flex-container">
+            <div class="flex-row">
+                Row: 1
+                <div class="box">1 1</div>
+                <div class="box">1 2</div>
+                <div class="box">1 3</div>
+            </div>
+
+            <div class="flex-row">
+                Row: 2
+                <div class="box">2 1</div>
+                <div class="box">2 2</div>
+                <div class="box">2 3</div>
+            </div>
+
+            <div class="flex-row">
+                Row: 3
+                <div class="box">3 1</div>
+                <div class="box">3 2</div>
+                <div class="box">3 3</div>
+            </div>
+        </div>
     </section>
 
 
