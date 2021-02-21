@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 25px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container-wrapper {
+    margin-top: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    background-color: lightgray;
+}
+
+.container-inline {
+    display: inline-flex;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+    border: dotted 1px;
+    border-color: pink;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+    height: 300px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+    height: 300px;
+}
+
+.wrap .box, .no-wrap .box {
+    width: 400px;
+    margin: 5px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.box-yellow {
+    background-color: yellow;
+    flex: 1;
+}
+
+.box-red {
+    background-color: red;
+    flex: 2;
+}
+
+.box-green {
+    background-color: green;
+    flex: 3;
+}
+
+.flex-width {
+    flex: 1 100px;
+}
+
+.second {
+    order: 2
+}
+
+.first {
+    order: 1
+}
+
+.third {
+    order: 3
+}
+
+.fourth {
+    order: 4
+}
+
+.order-1 {
+    order: -1;
+    background-color: lightgray;
+}
+

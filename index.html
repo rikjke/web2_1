@@ -4,9 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web2_1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <section>
+        <h2>Display</h2>
+        <div class="container-wrapper">
+            <h3>Flex</h3>
+            <div class="container">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
     
+        </div>
+        <div class="container-wrapper">
+            <h3>inline-flex</h3>
+            <div class="container container-inline">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+    </section>
+    <section>
+        <h2>Justify-content</h2>
+        <div class="container-wrapper">
+            <h3>Center</h3>
+            <div class="justify-center container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Space-Between</h3>
+            <div class="justify-space-between container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Space-Around</h3>
+            <div class="justify-space-around container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+    </section>
+
+
+    <section>
+        <h2>Flex-direction</h2>
+
+        <div class="container-wrapper">
+            <h3>Row (Default)</h3>
+            <div class="container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Column</h3>
+            <div class="flex-direction-column container">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Row Reverse</h3>
+            <div class="container row-reverse">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+        <div class="container-wrapper">
+            <h3>Column-Reverse</h3>
+            <div class="column-reverse container">
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+    
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Flex-wrap</h2>
+
+        <div class="container-wrapper">
+            <h3>no-wrap</h3>
+            <div class="container no-wrap">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3>wrap</h3>
+            <div class="container wrap">
+                <div class="box">width: 400px</div>
+                <div class="box">width: 400px</div>
+                <div class="box">width: 400px</div>
+                <div class="box">width: 400px</div>
+                <div class="box">width: 400px</div>
+                <div class="box">width: 400px</div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section>
+        <h2>Flex</h2>
+
+        <div class="container-wrapper">
+            <h3></h3>
+            <div class="container">
+                <div class="box">100px</div>
+                <div class="box">100px</div>
+                <div class="box">100px</div>
+                <div class="box">100px</div>
+                <div class="box box-green">flex: 3</div>
+                <div class="box box-red">flex: 2</div>
+                <div class="box box-yellow">flex: 1</div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3></h3>
+            <div class="container">
+                <div class="box">100px</div>
+                <div class="box">100px</div>
+                <div class="box">100px</div>
+                <div class="box">100px</div>
+                <div class="box box-green">flex: 3</div>
+                <div class="box box-red">flex: 2</div>
+                <div class="box box-yellow flex-width">flex: 1 100px</div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <section>
+        <h2>Order</h2>
+
+        <div class="container-wrapper">
+            <h3>default</h3>
+            <div class="container">
+                <div class="box">First (order: 0)</div>
+                <div class="box box-green">Second (order: 0)</div>
+                <div class="box box-red">Third (order: 0)</div>
+                <div class="box box-yellow">Fourth (order: 0)</div>
+                <div class="box order-1">Order: -1</div>
+            </div>
+        </div>
+
+        <div class="container-wrapper">
+            <h3></h3>
+            <div class="container">
+                <div class="box second">First (order: 2)</div>
+                <div class="box box-green third">Second (order: 3)</div>
+                <div class="box box-red fourth">Third (order: 4)</div>
+                <div class="box box-yellow first">Fourth (order: 1)</div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
 </body>
 </html>
